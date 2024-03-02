@@ -1,0 +1,971 @@
+{
+    "ingredients": [
+      {
+        "name": "Kale",
+        "description": "Kale, a vibrant and leafy green vegetable, is a nutritional powerhouse, renowned for its rich blend of vitamins and antioxidants. Its crisp texture and earthy flavor make it a versatile addition to salads, smoothies, and various dishes.",
+        "health_impact": "Very healthy",
+        "rating": 4.8
+      },
+      {
+        "name": "Salt",
+        "description": "Salt, a ubiquitous seasoning, is a culinary essential when used in moderation. This mineral enhances flavor, adding depth to dishes across diverse cuisines.",
+        "health_impact": "Unhealthy in excess",
+        "rating": 2.0
+      },
+      {
+        "name": "Salmon",
+        "description": "Salmon, a delectable fatty fish, boasts high levels of omega-3 fatty acids, promoting heart health and providing a savory dining experience.",
+        "health_impact": "Very healthy",
+        "rating": 4.5
+      },
+      {
+        "name": "Artificial Sweeteners",
+        "description": "Artificial Sweeteners, characterized by their low or zero-calorie content, serve as sugar substitutes, catering to those seeking sweetness without the caloric load.",
+        "health_impact": "Controversial, some concerns",
+        "rating": 3.0
+      },
+      {
+        "name": "Blueberries",
+        "description": "Blueberries, petite yet potent, are antioxidant-rich berries celebrated for their sweet-tart flavor. They contribute to various health benefits and are a delightful addition to both sweet and savory dishes.",
+        "health_impact": "Very healthy",
+        "rating": 4.7
+      },
+      {
+        "name": "Trans Fat",
+        "description": "Trans Fat, an artificially produced fat, is notorious for elevating bad cholesterol levels. Found in processed foods, it's crucial to limit intake for heart health.",
+        "health_impact": "Unhealthy",
+        "rating": 1.5
+      },
+      {
+        "name": "Avocado",
+        "description": "Avocado, a creamy and nutrient-dense fruit, is celebrated for its healthy monounsaturated fats. Its buttery texture enhances salads, spreads, and various culinary creations.",
+        "health_impact": "Very healthy",
+        "rating": 4.9
+      },
+      {
+        "name": "Highly Processed Meats",
+        "description": "Highly Processed Meats undergo extensive processing and are often laden with additives. Consuming them in moderation is crucial due to potential health risks.",
+        "health_impact": "Unhealthy",
+        "rating": 2.2
+      },
+      {
+        "name": "Spinach",
+        "description": "Spinach, a nutrient-dense leafy green vegetable, is a versatile ingredient in various culinary creations.",
+        "health_impact": "Very healthy",
+        "rating": 4.6
+      },
+      {
+        "name": "Cane Sugar",
+        "description": "Cane Sugar, a natural sweetener derived from sugar cane, adds sweetness to dishes and beverages.",
+        "health_impact": "Unhealthy in excess",
+        "rating": 3.0
+      },
+      {
+        "name": "Almonds",
+        "description": "Almonds, nutrient-rich nuts, are high in healthy fats and proteins. They make for a satisfying and wholesome snack.",
+        "health_impact": "Very healthy",
+        "rating": 4.8
+      },
+      {
+        "name": "Saturated Fat",
+        "description": "Saturated Fat, found in various animal products, may contribute to high cholesterol levels. It's advisable to consume in moderation.",
+        "health_impact": "Unhealthy in excess",
+        "rating": 2.5
+      },
+      {
+        "name": "Chia Seeds",
+        "description": "Chia Seeds, tiny seeds packed with fiber, omega-3 fatty acids, and antioxidants, are a nutritious addition to smoothies, yogurt, and baked goods.",
+        "health_impact": "Very healthy",
+        "rating": 4.7
+      },
+      {
+        "name": "White Flour",
+        "description": "White Flour, a highly refined flour with lower nutritional value, is commonly used in baking but should be consumed in moderation for a balanced diet.",
+        "health_impact": "Unhealthy",
+        "rating": 2.0
+      },
+      {
+        "name": "Sweet Potatoes",
+        "description": "Sweet Potatoes, a nutrient-dense root vegetable high in vitamins and fiber, make for a delicious and healthy addition to various dishes.",
+        "health_impact": "Very healthy",
+        "rating": 4.5
+      },
+      {
+        "name": "MSG (Monosodium Glutamate)",
+        "description": "MSG (Monosodium Glutamate), a common food additive used as a flavor enhancer, is considered controversial and may cause adverse reactions in some individuals.",
+        "health_impact": "Controversial, may cause adverse reactions",
+        "rating": 2.8
+      },
+      {
+        "name": "Cucumber",
+        "description": "Cucumber, a refreshing vegetable with high water content, adds a crisp and hydrating element to salads and snacks.",
+        "health_impact": "Very healthy",
+        "rating": 4.4
+      },
+      {
+        "name": "Corn Syrup",
+        "description": "Corn Syrup, a sweetening agent derived from corn, is often used in processed foods to enhance sweetness. However, its high sugar content can contribute to health concerns when consumed in excess.",
+        "health_impact": "Unhealthy",
+        "rating": 2.2
+      },
+      {
+        "name": "Quinoa",
+        "description": "Quinoa, a nutritious grain high in protein and essential amino acids, is a versatile ingredient in various dishes. Its nutty flavor and fluffy texture make it a popular choice for salads, bowls, and sides.",
+        "health_impact": "Very healthy",
+        "rating": 4.7
+      },
+      {
+        "name": "Processed Cheese",
+        "description": "Processed Cheese, with added preservatives and emulsifiers, is a convenient option for quick meals and snacks. However, its high sodium and saturated fat content may contribute to health concerns when consumed excessively.",
+        "health_impact": "Unhealthy",
+        "rating": 2.0
+      },
+      {
+        "name": "Greek Yogurt",
+        "description": "Greek Yogurt, thick and creamy with higher protein content, is a nutritious dairy option that can be enjoyed on its own or used as a versatile ingredient in both sweet and savory dishes.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.0
+      },
+      {
+        "name": "Corn Oil",
+        "description": "Corn Oil, a vegetable oil commonly used in cooking, adds a mild flavor to dishes. While it is a source of unsaturated fats, moderation is key to maintaining a balanced diet.",
+        "health_impact": "Moderately healthy",
+        "rating": 3.5
+      },
+      {
+        "name": "Green Tea",
+        "description": "Green Tea, an antioxidant-rich beverage, is celebrated for its potential health benefits. It's a soothing and flavorful option that can be enjoyed hot or cold.",
+        "health_impact": "Very healthy",
+        "rating": 4.6
+      },
+      {
+        "name": "Eggs",
+        "description": "Eggs, a rich source of protein and essential nutrients, are a versatile ingredient in cooking and baking. They provide a satiating and nutritious addition to various meals.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.0
+      },
+      {
+        "name": "Whole Wheat Flour",
+        "description": "Whole Wheat Flour, a nutrient-dense flour with higher fiber content, is a wholesome alternative to refined flour. It adds a nutty flavor and increased nutritional value to baked goods.",
+        "health_impact": "Moderately healthy",
+        "rating": 3.8
+      },
+      {
+        "name": "Honey",
+        "description": "Honey, a natural sweetener with potential health benefits, is a flavorful and versatile option for sweetening beverages, desserts, and various dishes.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.2
+      },
+      {
+        "name": "Tofu",
+        "description": "Tofu, a plant-based protein source often used in vegetarian dishes, is a versatile and nutritious addition to stir-fries, salads, and more.",
+        "health_impact": "Very healthy",
+        "rating": 4.5
+      },
+      {
+        "name": "Maple Syrup",
+        "description": "Maple Syrup, a natural sweetener derived from maple trees, imparts a rich and distinctive flavor. While it offers some nutritional benefits, moderation is advised due to its high sugar content.",
+        "health_impact": "Moderately healthy",
+        "rating": 3.5
+      },
+      {
+        "name": "Cocoa Powder",
+        "description": "Cocoa Powder, rich in antioxidants, is commonly used in baking and beverages. It adds a deep chocolate flavor to various recipes while providing potential health benefits.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.0
+      },
+      {
+        "name": "Coconut Oil",
+        "description": "Coconut Oil, a plant-based oil with potential health benefits, is known for its distinct flavor. While it can be used in moderation, its high saturated fat content suggests caution in excessive consumption.",
+        "health_impact": "Moderately healthy",
+        "rating": 3.7
+      },
+      {
+        "name": "Brown Rice",
+        "description": "Brown Rice, a whole grain rice with higher nutritional value, is a wholesome alternative to white rice. Its nutty flavor and chewy texture make it a versatile ingredient in various dishes.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.1
+      },
+      {
+        "name": "Peanuts",
+        "description": "Peanuts, nutrient-dense legumes, are high in healthy fats and proteins. They make for a satisfying and flavorful snack, but moderation is recommended due to their calorie density.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.3
+      },
+      {
+        "name": "Cinnamon",
+        "description": "Cinnamon, a spice with potential health benefits and a sweet flavor, adds warmth and depth to both sweet and savory dishes. Its versatility makes it a popular choice in various cuisines.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.0
+      },
+      {
+        "name": "Yogurt",
+        "description": "Yogurt, a dairy product rich in probiotics and calcium, is a nutritious and versatile food. It promotes gut health and provides essential nutrients for overall well-being.",
+        "health_impact": "Moderately healthy",
+        "rating": 3.8
+      },
+      {
+        "name": "Lentils",
+        "description": "Lentils, nutrient-dense legumes, are high in protein and fiber. They are a fantastic plant-based source of essential nutrients, making them a staple in many healthy diets.",
+        "health_impact": "Very healthy",
+        "rating": 4.6
+      },
+      {
+        "name": "Tomatoes",
+        "description": "Tomatoes, rich in antioxidants and vitamins, are commonly used in cooking to add flavor and depth to dishes. Their vibrant color is indicative of the health benefits they bring to the table.",
+        "health_impact": "Very healthy",
+        "rating": 4.4
+      },
+      {
+        "name": "Cayenne Pepper",
+        "description": "Cayenne Pepper, a spice with potential metabolism-boosting effects, adds heat and flavor to various cuisines. While it can enhance your dishes, moderation is advised.",
+        "health_impact": "Moderately healthy",
+        "rating": 3.9
+      },
+      {
+        "name": "Garlic",
+        "description": "Garlic, an aromatic herb with potential health benefits, is a flavorful addition to a wide range of dishes. It is known for its immune-boosting properties and rich history in traditional medicine.",
+        "health_impact": "Very healthy",
+        "rating": 4.7
+      },
+      {
+        "name": "Black Beans",
+        "description": "Black Beans, nutrient-dense legumes, are high in protein and fiber. They are a versatile ingredient, adding texture and nutrition to various recipes.",
+        "health_impact": "Very healthy",
+        "rating": 4.5
+      },
+      {
+        "name": "Mushrooms",
+        "description": "Mushrooms, low-calorie fungi with potential health benefits, bring a unique umami flavor to dishes. They are a nutritious addition to both vegetarian and non-vegetarian meals.",
+        "health_impact": "Very healthy",
+        "rating": 4.4
+      },
+      {
+        "name": "Pasta (Whole Wheat)",
+        "description": "Whole Wheat Pasta, with higher fiber content, is a wholesome alternative to traditional pasta. It provides sustained energy and increased nutritional value to your favorite pasta dishes.",
+        "health_impact": "Moderately healthy",
+        "rating": 3.8
+      },
+      {
+        "name": "Oranges",
+        "description": "Oranges, citrus fruits rich in vitamin C and antioxidants, are a juicy and flavorful snack. They contribute to immune health and overall well-being.",
+        "health_impact": "Very healthy",
+        "rating": 4.6
+      },
+      {
+        "name": "Walnuts",
+        "description": "Walnuts, nutrient-dense nuts high in omega-3 fatty acids, add crunch and nutritional value to dishes. They are a heart-healthy snack and a versatile ingredient in both sweet and savory recipes.",
+        "health_impact": "Very healthy",
+        "rating": 4.5
+      },
+      {
+        "name": "Soy Sauce",
+        "description": "Soy Sauce, a condiment used for flavoring, is high in sodium. While it adds depth to dishes, it's essential to use it in moderation to maintain a balanced diet.",
+        "health_impact": "Use in moderation",
+        "rating": 3.2
+      },
+      {
+        "name": "Pineapple",
+        "description": "Pineapple, a tropical fruit with natural sweetness and vitamin C, is a refreshing addition to snacks, desserts, and beverages. It brings a burst of flavor and nutrition to your plate.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.0
+      },
+      {
+        "name": "Ginger",
+        "description": "Ginger, a spice with potential anti-inflammatory properties, adds warmth and a distinctive flavor to both sweet and savory dishes. It has a long history of use in traditional medicine.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.1
+      },
+      {
+        "name": "Brussels Sprouts",
+        "description": "Brussels Sprouts, nutrient-dense vegetables high in fiber and vitamins, are a cruciferous delight. They add a hearty and nutritious element to your meals.",
+        "health_impact": "Very healthy",
+        "rating": 4.3
+      },
+      {
+        "name": "Chicken",
+        "description": "Chicken, a lean protein source commonly used in various cuisines, is a versatile and satiating option. It provides essential nutrients for muscle health and overall well-being.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.2
+      },
+      {
+        "name": "Onions",
+        "description": "Onions, aromatic vegetables used as a base in many dishes, add depth and flavor to a wide range of recipes. They come with a host of health benefits, contributing to a well-rounded diet.",
+        "health_impact": "Very healthy",
+        "rating": 4.3
+      },
+      {
+        "name": "Butter",
+        "description": "Butter, a dairy product used for cooking and flavoring, adds richness to dishes. While it enhances taste, it's important to use it in moderation due to its saturated fat content.",
+        "health_impact": "Use in moderation",
+        "rating": 3.5
+      },
+      {
+        "name": "Carrots",
+        "description": "Carrots, root vegetables rich in vitamins and beta-carotene, bring vibrant color and nutritional benefits to a variety of dishes. They are known for promoting eye health and providing essential antioxidants.",
+        "health_impact": "Very healthy",
+        "rating": 4.4
+      },
+      {
+        "name": "Beef",
+        "description": "Beef, red meat, is a rich source of protein and essential nutrients. While it can be part of a balanced diet, moderation is key due to its saturated fat content. Opting for lean cuts enhances its health profile.",
+        "health_impact": "Moderately healthy",
+        "rating": 3.8
+      },
+      {
+        "name": "Peppers",
+        "description": "Peppers, colorful vegetables rich in vitamins and antioxidants, add a burst of flavor and nutrition to various dishes. They come in a range of varieties, each offering unique health benefits.",
+        "health_impact": "Very healthy",
+        "rating": 4.2
+      },
+      {
+        "name": "Milk",
+        "description": "Milk, a dairy product rich in calcium and essential nutrients, is a staple in many diets. It is crucial for bone health and provides a good source of protein. Opt for low-fat or non-fat versions for a healthier choice.",
+        "health_impact": "Moderately healthy",
+        "rating": 3.7
+      },
+      {
+        "name": "Eggplant",
+        "description": "Eggplant, a versatile vegetable used in various dishes, is low in calories and high in fiber. It adds a unique texture and flavor to recipes while contributing to a healthy and balanced diet.",
+        "health_impact": "Very healthy",
+        "rating": 4.1
+      },
+      {
+        "name": "Turkey",
+        "description": "Turkey, lean poultry meat, is often used as a healthy alternative to red meat. It is a good source of protein and various nutrients, making it a nutritious addition to meals when prepared lean and cooked without excess fat.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.0
+      },
+      {
+        "name": "Cabbage",
+        "description": "Cabbage, a cruciferous vegetable with potential health benefits, is low in calories and high in nutrients. It adds a crunchy texture to salads and coleslaws, making it a nutritious and versatile ingredient.",
+        "health_impact": "Very healthy",
+        "rating": 4.3
+      },
+      {
+        "name": "Cheese",
+        "description": "Cheese, a dairy product with various flavors and textures, is a delicious addition to many dishes. However, due to its high saturated fat content and calorie density, it's advisable to enjoy it in moderation.",
+        "health_impact": "Use in moderation",
+        "rating": 3.6
+      },
+      {
+        "name": "Lemon",
+        "description": "Lemon, a citrus fruit used for its juice and zest in cooking, adds a zesty and refreshing flavor to dishes. It is rich in vitamin C and antioxidants, contributing to immune health and overall well-being.",
+        "health_impact": "Very healthy",
+        "rating": 4.5
+      },
+      {
+        "name": "Ground Beef",
+        "description": "Ground Beef, minced meat commonly used in various recipes, provides a versatile and flavorful protein source. Choosing leaner cuts and practicing moderation ensures a healthier meat option.",
+        "health_impact": "Moderately healthy",
+        "rating": 3.9
+      },
+      {
+        "name": "Soy Milk",
+        "description": "Soy Milk, a plant-based milk alternative for those with dairy allergies, is rich in protein and can be a nutritious addition to a balanced diet. It is often fortified with essential nutrients, such as calcium and vitamin D.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.1
+      },
+      {
+        "name": "Bread",
+        "description": "Bread, a staple food made from flour, water, and yeast, is a source of carbohydrates. Opting for whole-grain varieties increases its nutritional value, providing fiber and essential nutrients for a balanced diet.",
+        "health_impact": "Choose whole grain for higher nutritional value",
+        "rating": 3.4
+      },
+      {
+        "name": "Thyme",
+        "description": "Thyme, an aromatic herb used for seasoning in various dishes, adds a fragrant and earthy flavor. It not only enhances the taste of recipes but also offers potential health benefits, including antioxidant properties.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.2
+      },
+      {
+        "name": "Salad Greens",
+        "description": "Salad Greens, various leafy greens used in salads for added nutrients, are rich in vitamins, minerals, and antioxidants. Incorporating a variety of salad greens into your diet contributes to overall health and well-being.",
+        "health_impact": "Very healthy",
+        "rating": 4.6
+      },
+      {
+        "name": "Cumin",
+        "description": "Cumin, a spice with a warm and earthy flavor, is commonly used in cooking to add depth to dishes. In addition to enhancing taste, cumin is believed to have potential health benefits, including anti-inflammatory properties.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.0
+      },
+      {
+        "name": "Pork",
+        "description": "Pork, a versatile meat used in various cuisines, provides a good source of protein and essential nutrients. Opting for lean cuts and practicing moderation ensures a healthier choice when including pork in your diet.",
+        "health_impact": "Moderately healthy",
+        "rating": 3.7
+      },
+      {
+        "name": "Bell Tomatoes",
+        "description": "Bell Tomatoes, sweet and flavorful, are commonly used in various dishes. These vibrant tomatoes are not only delicious but also packed with essential vitamins and antioxidants, making them a very healthy choice.",
+        "health_impact": "Very healthy",
+        "rating": 4.4
+      },
+      {
+        "name": "Celery",
+        "description": "Celery, a crunchy vegetable often used in soups and salads, is not only low in calories but also a rich source of antioxidants and fiber. Its versatility and nutritional profile make it a very healthy addition to your diet.",
+        "health_impact": "Very healthy",
+        "rating": 4.2
+      },
+      {
+        "name": "Oregano",
+        "description": "Oregano, an aromatic herb used for flavoring in Mediterranean cuisine, not only enhances the taste of dishes but also offers potential health benefits. Its moderate use contributes to a flavorful and moderately healthy diet.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.1
+      },
+      {
+        "name": "Shrimp",
+        "description": "Shrimp, a shellfish high in protein and low in fat, is a moderately healthy seafood option. It provides essential nutrients and can be enjoyed as part of a balanced diet when prepared in a healthy manner.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.2
+      },
+      {
+        "name": "Green Beans",
+        "description": "Green Beans, nutrient-dense vegetables commonly used in side dishes, are rich in vitamins and minerals. Their vibrant color and health benefits make them a very healthy choice for adding variety to your meals.",
+        "health_impact": "Very healthy",
+        "rating": 4.3
+      },
+      {
+        "name": "Rice",
+        "description": "Rice, a staple grain consumed worldwide and rich in carbohydrates, becomes a healthier choice when opting for whole grain varieties. Choosing whole grain rice provides higher nutritional value, including fiber.",
+        "health_impact": "Choose whole grain for higher nutritional value",
+        "rating": 3.8
+      },
+      {
+        "name": "Tomato Sauce",
+        "description": "Tomato Sauce, a condiment made from tomatoes and often used in cooking, adds flavor to a variety of dishes. When used in moderation, it contributes to a moderately healthy diet with its rich tomato goodness.",
+        "health_impact": "Moderately healthy",
+        "rating": 3.5
+      },
+      {
+        "name": "Parsley",
+        "description": "Parsley, an aromatic herb used for garnishing and flavoring, not only adds a fresh touch to dishes but also provides various vitamins and antioxidants. Its inclusion contributes to a very healthy and flavorful diet.",
+        "health_impact": "Very healthy",
+        "rating": 4.0
+      },
+      {
+        "name": "Vanilla Extract",
+        "description": "Vanilla Extract, a flavoring derived from vanilla beans and commonly used in baking, adds a sweet and aromatic essence to recipes. Like any extract, it is recommended to use in moderation for a balanced diet.",
+        "health_impact": "Use in moderation",
+        "rating": 3.7
+      },
+      {
+        "name": "Hummus",
+        "description": "Hummus, a dip made from chickpeas, tahini, and lemon, is not only a tasty snack but also a very healthy one. Packed with protein and fiber, hummus makes a nutritious addition to a balanced diet.",
+        "health_impact": "Very healthy",
+        "rating": 4.4
+      },
+      {
+        "name": "Paprika",
+        "description": "Paprika, a spice with a mildly sweet and smoky flavor, adds depth to various dishes. While enjoying its unique taste, moderation is advised for a moderately healthy diet.",
+        "health_impact": "Moderately healthy",
+        "rating": 3.9
+      },
+      {
+        "name": "Cauliflower",
+        "description": "Cauliflower, a versatile vegetable often used as a low-carb substitute, is not only delicious but also very healthy. Its high nutritional value makes it an excellent choice for a variety of dishes.",
+        "health_impact": "Very healthy",
+        "rating": 4.2
+      },
+      {
+        "name": "Sesame Oil",
+        "description": "Sesame Oil, an edible oil derived from sesame seeds and commonly used in cooking, adds a rich, nutty flavor to dishes. When used in moderation, it can be a moderately healthy choice for culinary purposes.",
+        "health_impact": "Moderately healthy",
+        "rating": 3.6
+      },
+      {
+        "name": "Black Pepper",
+        "description": "Black Pepper, a commonly used spice with a pungent flavor, enhances the taste of dishes. It is a moderately healthy choice when used in moderation to add flavor to your meals.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.0
+      },
+      {
+        "name": "Red Wine Vinegar",
+        "description": "Red Wine Vinegar, a vinegar made from fermented red wine and often used in dressings, provides a tangy flavor to dishes. When used in moderation, it can be a moderately healthy addition to your culinary creations.",
+        "health_impact": "Use in moderation",
+        "rating": 3.5
+      },
+      {
+        "name": "Cilantro",
+        "description": "Cilantro, an herb with a fresh and citrusy flavor, is not only a delicious addition to dishes but also very healthy. It adds a burst of flavor along with potential health benefits to your culinary creations.",
+        "health_impact": "Very healthy",
+        "rating": 4.1
+      },
+      {
+        "name": "Chickpeas",
+        "description": "Chickpeas, legumes rich in protein and fiber, are versatile and used in various dishes. With their high nutritional content, they are considered very healthy and contribute to a balanced diet.",
+        "health_impact": "Very healthy",
+        "rating": 4.3
+      },
+      {
+        "name": "Mustard",
+        "description": "Mustard, a condiment with a tangy flavor made from mustard seeds, adds zing to various dishes. When used in moderation, it can be a moderately healthy choice for flavoring your meals.",
+        "health_impact": "Moderately healthy",
+        "rating": 3.8
+      },
+      {
+        "name": "Dill",
+        "description": "Dill, an herb with a feathery texture and a mild flavor, not only adds freshness to dishes but also contributes to potential health benefits. Its inclusion enhances both taste and nutritional value.",
+        "health_impact": "Very healthy",
+        "rating": 4.2
+      },
+      {
+        "name": "Peanut Butter",
+        "description": "Peanut Butter, a spread made from roasted peanuts and rich in healthy fats, is a moderately healthy choice. It provides a delicious and energy-packed addition to your diet when consumed in moderation.",
+        "health_impact": "Moderately healthy",
+        "rating": 3.9
+      },
+      {
+        "name": "Basil",
+        "description": "Basil, an aromatic herb used in Italian cuisine and pesto, not only adds a delightful flavor to dishes but also offers various health benefits. Its use contributes to a very healthy and tasty diet.",
+        "health_impact": "Very healthy",
+        "rating": 4.3
+      },
+      {
+        "name": "Brown Sugar",
+        "description": "Brown Sugar, a sweetener with a molasses flavor and less refined than white sugar, is recommended to be used in moderation. While adding sweetness, it's essential to maintain balance in your diet.",
+        "health_impact": "Use in moderation",
+        "rating": 3.5
+      },
+      {
+        "name": "Green Onions",
+        "description": "Green Onions, mild-flavored onions often used as a garnish, are not only tasty but also very healthy. They add a fresh and crisp element to various dishes while contributing to your overall well-being.",
+        "health_impact": "Very healthy",
+        "rating": 4.0
+      },
+      {
+        "name": "Shallots",
+        "description": "Shallots, a type of onion with a milder and sweeter flavor, are a very healthy addition to various dishes. Their subtle taste enhances the overall flavor profile while providing potential health benefits.",
+        "health_impact": "Very healthy",
+        "rating": 4.1
+      },
+      {
+        "name": "Turmeric",
+        "description": "Turmeric, a bright yellow spice with potential anti-inflammatory properties, adds both color and health benefits to dishes. Its inclusion contributes to a very healthy and flavorful diet.",
+        "health_impact": "Very healthy",
+        "rating": 4.4
+      },
+      {
+        "name": "Worcestershire Sauce",
+        "description": "Worcestershire Sauce, a condiment with a savory and tangy flavor, is often used in marinades. Its use in moderation can add depth to dishes while maintaining a moderately healthy diet.",
+        "health_impact": "Use in moderation",
+        "rating": 3.6
+      },
+      {
+        "name": "Almond Butter",
+        "description": "Almond Butter, a nut butter made from roasted almonds and rich in healthy fats, is a moderately healthy choice. When consumed in moderation, it provides a flavorful and nutritious addition to your diet.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.0
+      },
+      {
+        "name": "Lime",
+        "description": "Lime, a citrus fruit used for its juice and zest in cooking and beverages, adds a zesty and refreshing flavor to dishes. Rich in vitamin C, lime contributes to a very healthy and vibrant diet.",
+        "health_impact": "Very healthy",
+        "rating": 4.2
+      },
+      {
+        "name": "Rosemary",
+        "description": "Rosemary, an aromatic herb with a piney flavor, is used in Mediterranean dishes to enhance the taste of various recipes. Its inclusion not only adds depth but also contributes to a very healthy diet.",
+        "health_impact": "Very healthy",
+        "rating": 4.1
+      },
+      {
+        "name": "Soybeans",
+        "description": "Soybeans, versatile legumes used in various forms, including tofu and soy sauce, are very healthy. Packed with protein and other nutrients, they are an excellent addition to a balanced and plant-based diet.",
+        "health_impact": "Very healthy",
+        "rating": 4.5
+      },
+      {
+        "name": "Cheddar Cheese",
+        "description": "Cheddar Cheese, a popular cheese variety known for its rich and sharp flavor, is recommended for use in moderation. While delicious, it's essential to balance its inclusion for a healthier overall diet.",
+        "health_impact": "Use in moderation",
+        "rating": 3.7
+      },
+      {
+        "name": "Bell Peppers",
+        "description": "Bell Peppers, colorful vegetables high in vitamins and antioxidants, are very healthy. Their vibrant hues and nutritional benefits make them a delicious and nutritious addition to a variety of dishes.",
+        "health_impact": "Very healthy",
+        "rating": 4.3
+      },
+      {
+        "name": "Vanilla Yogurt",
+        "description": "Vanilla Yogurt, a dairy product with added vanilla flavor, often eaten as a snack, is a moderately healthy choice. When consumed in moderation, it can be a tasty and nutritious part of your diet.",
+        "health_impact": "Moderately healthy",
+        "rating": 3.8
+      },
+      {
+        "name": "Pomegranate Seeds",
+        "description": "Pomegranate Seeds, juicy seeds from the pomegranate fruit, are very healthy. Packed with antioxidants, they add a burst of flavor and nutrition to various dishes, contributing to overall well-being.",
+        "health_impact": "Very healthy",
+        "rating": 4.4
+      },
+      {
+        "name": "Mint",
+        "description": "Mint, an aromatic herb used for flavoring in beverages, desserts, and savory dishes, not only adds a refreshing taste but also offers various health benefits. Its inclusion contributes to a very healthy and flavorful diet.",
+        "health_impact": "Very healthy",
+        "rating": 4.2
+      },
+      {
+        "name": "Pasta (Whole Grain)",
+        "description": "Pasta (Whole Grain), made from whole wheat flour and higher in fiber and nutrients compared to traditional pasta, is a moderately healthy option. Choosing whole grain pasta adds nutritional value to your meals.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.0
+      },
+      {
+        "name": "Chickpea Flour",
+        "description": "Chickpea Flour, ground chickpeas used as flour and popular in gluten-free baking, is not only a versatile alternative but also very healthy. Packed with protein and nutrients, it contributes to a nutritious diet.",
+        "health_impact": "Very healthy",
+        "rating": 4.2
+      },
+      {
+        "name": "Mango",
+        "description": "Mango, a sweet and tropical fruit with a juicy texture, is not only delicious but also very healthy. Rich in vitamins and antioxidants, mangoes make a flavorful and nutritious addition to your diet.",
+        "health_impact": "Very healthy",
+        "rating": 4.5
+      },
+      {
+        "name": "Balsamic Vinegar",
+        "description": "Balsamic Vinegar, a dark and flavorful vinegar often used in dressings and marinades, adds depth to dishes. When used in moderation, it can be a moderately healthy choice for enhancing the taste of your meals.",
+        "health_impact": "Moderately healthy",
+        "rating": 3.9
+      },
+      {
+        "name": "Cottage Cheese",
+        "description": "Cottage Cheese, fresh cheese curds with a mild flavor and rich in protein, is a moderately healthy choice. With its protein content, it can be a nutritious addition to various meals and snacks.",
+        "health_impact": "Moderately healthy",
+        "rating": 3.6
+      },
+      {
+        "name": "Hazelnuts",
+        "description": "Hazelnuts, nutrient-dense nuts with a sweet and nutty flavor, are very healthy. Packed with essential nutrients, hazelnuts make a delicious and nutritious snack or addition to various dishes.",
+        "health_impact": "Very healthy",
+        "rating": 4.3
+      },
+      {
+        "name": "Sunflower Seeds",
+        "description": "Sunflower Seeds, seeds from sunflower plants, high in healthy fats and nutrients, are very healthy. These seeds are a nutritious snack or a flavorful addition to salads and various dishes.",
+        "health_impact": "Very healthy",
+        "rating": 4.2
+      },
+      {
+        "name": "Cocoa Nibs",
+        "description": "Cocoa Nibs, crushed pieces of cocoa beans rich in antioxidants, not only add a chocolatey flavor to dishes but also offer health benefits. Their inclusion contributes to a very healthy and flavorful diet.",
+        "health_impact": "Very healthy",
+        "rating": 4.4
+      },
+      {
+        "name": "Lemon Juice",
+        "description": "Lemon Juice, citrus juice used for flavoring in cooking and beverages, not only adds a zesty taste but also provides vitamin C. Its use contributes to a very healthy and refreshing culinary experience.",
+        "health_impact": "Very healthy",
+        "rating": 4.3
+      },
+      {
+        "name": "Raspberries",
+        "description": "Raspberries, sweet and tart berries high in vitamins and antioxidants, are very healthy. These vibrant berries add both flavor and nutritional value to various dishes, contributing to overall well-being.",
+        "health_impact": "Very healthy",
+        "rating": 4.5
+      },
+      {
+        "name": "Pumpkin Seeds",
+        "description": "Pumpkin Seeds, seeds from pumpkins, rich in nutrients and often roasted as snacks, are very healthy. These seeds are a crunchy and nutritious addition to your diet, providing essential vitamins and minerals.",
+        "health_impact": "Very healthy",
+        "rating": 4.2
+      },
+      {
+        "name": "Garam Masala",
+        "description": "Garam Masala, a spice blend used in Indian cuisine, rich in flavors and aromas, adds depth to various dishes. When used in moderation, it can be a moderately healthy choice for enhancing the taste of your meals.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.0
+      },
+      {
+        "name": "Oats",
+        "description": "Oats, whole grain oats used in various forms, including oatmeal and granola, are very healthy. Packed with fiber and nutrients, oats are a nutritious and versatile ingredient for a balanced diet.",
+        "health_impact": "Very healthy",
+        "rating": 4.1
+      },
+      {
+        "name": "Apricots",
+        "description": "Apricots, sweet and tangy fruit with a velvety skin, are very healthy. These delicious fruits are rich in vitamins and antioxidants, making them a nutritious and flavorful addition to various dishes.",
+        "health_impact": "Very healthy",
+        "rating": 4.3
+      },
+      {
+        "name": "Pistachios",
+        "description": "Pistachios, nutrient-dense nuts with a slightly sweet and salty flavor, are very healthy. These flavorful nuts provide essential nutrients and make a delicious and satisfying snack.",
+        "health_impact": "Very healthy",
+        "rating": 4.4
+      },
+      {
+        "name": "Whole Milk",
+        "description": "Whole Milk, a dairy product with a higher fat content, is recommended for use in moderation. While it provides essential nutrients, it's important to balance its consumption for a healthier overall diet.",
+        "health_impact": "Use in moderation",
+        "rating": 3.5
+      },
+      {
+        "name": "Green Tea Extract",
+        "description": "Green Tea Extract, a concentrated form of green tea often used for its potential health benefits, is very healthy. Rich in antioxidants, green tea extract can be a beneficial addition to your diet.",
+        "health_impact": "Very healthy",
+        "rating": 4.6
+      },
+      {
+        "name": "Nutmeg",
+        "description": "Nutmeg, a spice with a warm and nutty flavor, used in both sweet and savory dishes, is moderately healthy. When used in moderation, nutmeg adds a delightful taste to recipes.",
+        "health_impact": "Moderately healthy",
+        "rating": 4.1
+      },
+      {
+        "name": "Cranberries",
+        "description": "Cranberries, tart berries often used in sauces, juices, and baked goods, are very healthy. Packed with vitamins and antioxidants, cranberries contribute to a nutritious and flavorful diet.",
+        "health_impact": "Very healthy",
+        "rating": 4.2
+      },
+      {
+        "name": "High Fructose Corn Syrup",
+        "description": "High Fructose Corn Syrup, a sweetener linked to obesity and other health issues when consumed in excess, is considered unhealthy. Its intake should be limited to promote a healthier lifestyle.",
+        "health_impact": "Unhealthy",
+        "rating": 2.0
+      },
+      {
+        "name": "Trans Fat",
+        "description": "Trans Fat, artificially produced fat associated with an increased risk of heart disease, is considered unhealthy. It is advisable to minimize the consumption of trans fats for better heart health.",
+        "health_impact": "Unhealthy",
+        "rating": 1.5
+      },
+      {
+        "name": "Artificial Sweeteners",
+        "description": "Artificial Sweeteners, non-nutritive sweeteners that may have controversial health effects, are considered controversial. Their consumption should be approached with caution, considering individual health concerns.",
+        "health_impact": "Controversial",
+        "rating": 2.5
+      },
+      {
+        "name": "Monosodium Glutamate (MSG)",
+        "description": "Monosodium Glutamate (MSG), a food additive linked to headaches and other adverse reactions in some individuals, is considered controversial. It's advisable to be mindful of its presence in processed foods.",
+        "health_impact": "Controversial",
+        "rating": 2.8
+      },
+      {
+        "name": "Sodium Nitrate/Nitrite",
+        "description": "Sodium Nitrate/Nitrite, a preservative used in processed meats, is associated with potential health risks. It's recommended to limit the consumption of processed meats containing these additives for better health.",
+        "health_impact": "Unhealthy",
+        "rating": 2.2
+      },
+      {
+        "name": "BHA/BHT",
+        "description": "BHA/BHT, synthetic antioxidants used as preservatives, with potential health concerns, are considered controversial. It's advisable to be cautious about their presence in processed foods and opt for alternatives when possible.",
+        "health_impact": "Controversial",
+        "rating": 2.3
+      },
+      {
+        "name": "Aspartame",
+        "description": "Aspartame, an artificial sweetener with controversial health effects, is considered controversial. Its consumption should be monitored, especially by individuals with sensitivities or health concerns.",
+        "health_impact": "Controversial",
+        "rating": 2.6
+      },
+      {
+        "name": "Potassium Bromate",
+        "description": "Potassium Bromate, a flour additive linked to potential thyroid issues and carcinogenicity, is considered unhealthy. It's advisable to choose products without this additive for a healthier option.",
+        "health_impact": "Unhealthy",
+        "rating": 2.1
+      },
+      {
+        "name": "Highly Processed Meats",
+        "description": "Highly Processed Meats, meats with added preservatives and additives, are associated with health risks. Limiting the consumption of highly processed meats supports a healthier lifestyle.",
+        "health_impact": "Unhealthy",
+        "rating": 2.2
+      },
+      {
+        "name": "White Sugar",
+        "description": "White Sugar, refined sugar linked to various health issues when consumed in excess, is considered unhealthy. Moderation in sugar intake is essential for maintaining overall health and well-being.",
+        "health_impact": "Unhealthy",
+        "rating": 2.0
+      },
+      {
+        "name": "White Flour",
+        "description": "White Flour, highly refined flour with lower nutritional value, is considered unhealthy. Choosing whole grain alternatives provides better nutritional benefits for a balanced diet.",
+        "health_impact": "Unhealthy",
+        "rating": 2.0
+      },
+      {
+        "name": "Soybean Oil",
+        "description": "Soybean Oil, a commonly used vegetable oil, is high in omega-6 fatty acids when not balanced with omega-3s. It is considered unhealthy in excess. Choosing healthier cooking oils is recommended for better overall health.",
+        "health_impact": "Unhealthy in excess",
+        "rating": 2.3
+      },
+      {
+        "name": "Corn Syrup",
+        "description": "Corn Syrup, a sweetening agent derived from corn, often used in processed foods, is considered unhealthy. Being mindful of its presence in food products contributes to a healthier dietary choice.",
+        "health_impact": "Unhealthy",
+        "rating": 2.2
+      },
+      {
+        "name": "White Rice",
+        "description": "White Rice, refined rice with lower nutritional value compared to brown rice, is considered unhealthy in excess. While it serves as a staple for many, incorporating more whole grains into your diet can offer additional health benefits.",
+        "health_impact": "Unhealthy in excess",
+        "rating": 2.1
+      },
+      {
+        "name": "Processed Cheese",
+        "description": "Processed Cheese, cheese with added preservatives and emulsifiers, is considered unhealthy. Opting for natural cheeses without additives provides a better choice for those looking to maintain a healthier diet.",
+        "health_impact": "Unhealthy",
+        "rating": 2.0
+      },
+      {
+        "name": "Canola Oil",
+        "description": "Canola Oil, a vegetable oil with controversial health effects in its refined form, is considered controversial. While it may have benefits, choosing healthier cooking oils with higher stability under heat is recommended for overall well-being.",
+        "health_impact": "Controversial",
+        "rating": 2.4
+      },
+      {
+        "name": "Margarine",
+        "description": "Margarine, a spread with trans fats associated with an increased risk of heart disease, is considered unhealthy. Choosing alternatives like olive oil or avocado spread can be a healthier option for your heart.",
+        "health_impact": "Unhealthy",
+        "rating": 1.8
+      },
+      {
+        "name": "Agave Nectar",
+        "description": "Agave Nectar, a sweetener with high fructose content linked to potential health issues, is considered unhealthy in excess. Moderation and exploring natural sweeteners like honey or maple syrup can be a better choice.",
+        "health_impact": "Unhealthy in excess",
+        "rating": 2.3
+      },
+      {
+        "name": "Alcohol",
+        "description": "Alcohol, when consumed excessively, is associated with various health risks. Moderate and responsible alcohol consumption is advised to minimize potential adverse effects.",
+        "health_impact": "Unhealthy in excess",
+        "rating": 2.5
+      },
+      {
+        "name": "Instant Ramen Noodles",
+        "description": "Instant Ramen Noodles, highly processed and packaged noodles with low nutritional value, are considered unhealthy. Opting for whole grain or alternative noodles with more nutritional value is a better choice.",
+        "health_impact": "Unhealthy",
+        "rating": 1.9
+      },
+      {
+        "name": "Diet Soda",
+        "description": "Diet Soda, an artificially sweetened beverage with controversial health effects, is considered controversial. Reducing or eliminating the consumption of sodas and choosing water or herbal teas is a healthier choice.",
+        "health_impact": "Controversial",
+        "rating": 2.4
+      },
+      {
+        "name": "Canned Soup",
+        "description": "Canned Soup, often high in sodium and additives, is associated with health concerns. Opting for homemade or low-sodium soups can be a healthier choice for those looking to manage their sodium intake.",
+        "health_impact": "Unhealthy",
+        "rating": 2.2
+      },
+      {
+        "name": "Artificial Food Coloring",
+        "description": "Artificial Food Coloring, synthetic colorings linked to potential hyperactivity in children, is considered controversial. Choosing natural sources of color or foods without added artificial colors is recommended.",
+        "health_impact": "Controversial",
+        "rating": 2.6
+      },
+      {
+        "name": "Palm Oil",
+        "description": "Palm Oil, a vegetable oil associated with deforestation and potential health concerns, is considered controversial. Exploring alternatives like olive oil or avocado oil supports a more sustainable and potentially healthier choice.",
+        "health_impact": "Controversial",
+        "rating": 2.4
+      },
+      {
+        "name": "MSG (Monosodium Glutamate)",
+        "description": "MSG (Monosodium Glutamate), a common food additive used as a flavor enhancer, is considered controversial. Being mindful of its presence in processed foods and opting for MSG-free alternatives is recommended.",
+        "health_impact": "Controversial",
+        "rating": 2.8
+      },
+      {
+        "name": "Hydrogenated Oils",
+        "description": "Hydrogenated Oils, oils that undergo hydrogenation, leading to trans fats, are considered unhealthy. Minimizing the consumption of foods containing hydrogenated oils supports better heart health.",
+        "health_impact": "Unhealthy",
+        "rating": 1.7
+      },
+      {
+        "name": "Dextrose",
+        "description": "Dextrose, a simple sugar often used as a sweetener, offering little nutritional value, is considered unhealthy in excess. Moderating the intake of added sugars contributes to a healthier diet.",
+        "health_impact": "Unhealthy in excess",
+        "rating": 2.1
+      },
+      {
+        "name": "Soy Protein Isolate",
+        "description": "Soy Protein Isolate, a highly processed soy product with potential health concerns, is considered controversial. Opting for minimally processed or fermented soy products can be a better choice.",
+        "health_impact": "Controversial",
+        "rating": 2.3
+      },
+      {
+        "name": "White Bread",
+        "description": "White Bread, refined bread with lower nutritional value compared to whole grain bread, is considered unhealthy. Choosing whole grain or whole wheat bread provides more fiber and nutrients.",
+        "health_impact": "Unhealthy",
+        "rating": 2.0
+      },
+      {
+        "name": "Corn Oil",
+        "description": "Corn Oil, a vegetable oil high in omega-6 fatty acids when not balanced with omega-3s, is considered unhealthy in excess. Choosing cooking oils with a better balance of fatty acids promotes overall health.",
+        "health_impact": "Unhealthy in excess",
+        "rating": 2.2
+      },
+      {
+        "name": "Frosting/Icing",
+        "description": "Frosting/Icing, a highly processed and sugary topping with little nutritional value, is considered unhealthy. Moderating the consumption of sugary treats contributes to overall health and well-being.",
+        "health_impact": "Unhealthy",
+        "rating": 1.9
+      },
+      {
+        "name": "Canned Vegetables",
+        "description": "Canned Vegetables, may contain added sodium and lower nutritional value compared to fresh vegetables, are considered unhealthy. Choosing fresh or frozen vegetables provides more nutrients and less added sodium.",
+        "health_impact": "Unhealthy",
+        "rating": 2.1
+      },
+      {
+        "name": "Vegetable Shortening",
+        "description": "Vegetable Shortening, solid fat used in baking, often containing trans fats, is considered unhealthy. Exploring alternatives like butter or healthier oils for baking is recommended.",
+        "health_impact": "Unhealthy",
+        "rating": 1.8
+      },
+      {
+        "name": "Deep-Fried Foods",
+        "description": "Deep-Fried Foods, foods cooked in excessive amounts of oil, high in unhealthy fats, are considered unhealthy. Limiting the consumption of fried foods supports better heart health and overall well-being.",
+        "health_impact": "Unhealthy",
+        "rating": 1.9
+      },
+      {
+        "name": "White Potato Chips",
+        "description": "White Potato Chips, processed and fried potato chips with low nutritional value, are considered unhealthy. Opting for baked or healthier chip alternatives provides a better snack choice.",
+        "health_impact": "Unhealthy",
+        "rating": 1.9
+      },
+      {
+        "name": "White Chocolate",
+        "description": "White Chocolate, a sweet confection with high sugar content and little cocoa solids, is considered unhealthy. Moderating the consumption of sugary treats like white chocolate contributes to overall health.",
+        "health_impact": "Unhealthy",
+        "rating": 2.0
+      },
+      {
+        "name": "Processed Breakfast Cereals",
+        "description": "Processed Breakfast Cereals, often high in sugar and low in nutritional value, are considered unhealthy. Choosing whole grain or low-sugar cereals provides a healthier start to your day.",
+        "health_impact": "Unhealthy",
+        "rating": 2.2
+      },
+      {
+        "name": "Frozen Pizza",
+        "description": "Frozen Pizza, highly processed pizza with added preservatives and unhealthy fats, is considered unhealthy. Opting for homemade or healthier pizza alternatives supports better nutritional choices.",
+        "health_impact": "Unhealthy",
+        "rating": 1.8
+      },
+      {
+        "name": "Store-Bought Cookies",
+        "description": "Store-Bought Cookies, often high in sugar, unhealthy fats, and artificial additives, are considered unhealthy. Baking homemade cookies with healthier ingredients or choosing low-sugar options can be a better choice.",
+        "health_impact": "Unhealthy",
+        "rating": 2.1
+      },
+      {
+        "name": "Bacon",
+        "description": "Bacon, processed and cured meat with added preservatives, is considered unhealthy. Limiting the consumption of processed meats like bacon supports better heart health and overall well-being.",
+        "health_impact": "Unhealthy",
+        "rating": 2.3
+      },
+      {
+        "name": "Instant Macaroni and Cheese",
+        "description": "Instant Macaroni and Cheese, a highly processed convenience food with artificial additives, is considered unhealthy. Opting for homemade or less-processed macaroni and cheese alternatives provides a better nutritional choice.",
+        "health_impact": "Unhealthy",
+        "rating": 1.8
+      }
+    ]
+  }
+  
